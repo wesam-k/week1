@@ -1,0 +1,45 @@
+How do I create a hidden file or folder? How do I display it in the CLI?
+wesam@samoo MINGW64 /c/Users
+$ cd wesam
+
+wesam@samoo MINGW64 ~
+$ cd week1
+
+wesam@samoo MINGW64 ~/week1
+$ mkdir file
+
+wesam@samoo MINGW64 ~/week1
+$ attrib +h file
+
+wesam@samoo MINGW64 ~/week1
+$ attrib -h  file
+
+
+
+How do I create multiple nested directories, like /c/Users/myusername/these/folders/are/just/for/fun?
+
+wesam@samoo MINGW64 ~/week1
+$ mkdir these/ folder/ are/ just/ for/
+
+wesam@samoo MINGW64 ~/week1
+$ ls
+ are/  'challengeCLI .txt'   file/   folder/   for/   just/   test/   these/
+
+
+
+How do I append a message to a file, without a newline character, so the output would be:
+
+
+wesam@samoo MINGW64 ~/week1
+$ echo "first message" >>homework1.txt
+
+wesam@samoo MINGW64 ~/week1
+$ echo "second message" >>homework1.txt
+
+wesam@samoo MINGW64 ~/week1
+$ cat homework1.txt
+
+
+first message
+second message
+

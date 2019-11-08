@@ -1,0 +1,75 @@
+Write a sequence of commands to make four groups of students. Each group should contain four students. One student cannot be part of multiple groups.
+
+1 Hanbing
+2 Amina
+3 Mahmoud
+4 Jalal
+5 Naji
+6 Ammar
+7 Wesam
+8 Abuzer
+9 Dima
+10 Anwar
+11 Hani
+12 Ramzi
+13 Ali
+14 Ibrahim
+15 Abdulkadir
+16 Ahmet Yasin
+
+wesam@samoo MINGW64 ~/week1
+$ echo "hanbing
+> amina
+> mahmoud
+> jalal" >group1.txt
+
+wesam@samoo MINGW64 ~/week1
+$ ls
+are/              file/    for/        homework1.txt  test/
+challengecli.txt  folder/  group1.txt  just/          these/
+
+wesam@samoo MINGW64 ~/week1
+$ cat group1.txt
+hanbing
+amina
+mahmoud
+jalal
+
+wesam@samoo MINGW64 ~/week1
+$ echo " naji
+> ammar
+> wesam
+> abuzer" >group2.txt
+
+wesam@samoo MINGW64 ~/week1
+$ cat group2.txt
+ naji
+ammar
+wesam
+abuzer
+
+wesam@samoo MINGW64 ~/week1
+$ echo "dima
+> anwer
+> hani
+> ramzi" >group3.txt
+
+wesam@samoo MINGW64 ~/week1
+$ cat group3.txt
+dima
+anwer
+hani
+ramzi
+
+wesam@samoo MINGW64 ~/week1
+$ echo "ali
+> ibrahim
+> abdulkadir
+> ahmet yasin" >group4.txt
+
+wesam@samoo MINGW64 ~/week1
+$ cat group4.txt
+ali
+ibrahim
+abdulkadir
+ahmet yasin
